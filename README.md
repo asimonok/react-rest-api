@@ -12,8 +12,8 @@
 - Удаление конкретной записи
 
 ## API endpoints
-- POST <url>/test.json {"user_id" : "jack", "text" : "Ahoy!"} - создать
-- GET <url>/test.json - получить все
-- GET <url>/test/<id>.json - получить конкретный
-- PUT <url>/test/<id>.json - обновить
-- DELETE <url>/test/<id>.json - удалить
+- POST `<url>/test.json` `{"user_id" : "jack", "text" : "Ahoy!"}` - создать
+- GET `<url>/test.json` - получить все
+- GET `<url>/test/<id>.json` - получить конкретный
+- PUT `<url>/test/<id>.json` - обновить
+- DELETE `<url>/test/<id>.json` - удалить
