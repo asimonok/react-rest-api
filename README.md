@@ -41,4 +41,3 @@ PUT `<url>/test/<id>.json` - update element. Request format:
 }
 ```
 DELETE `<url>/test/<id>.json` - delete element (`<id>` is a value from the GET `<url>/test.json` response)
-  value: <string_value>,
