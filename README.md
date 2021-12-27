@@ -1,6 +1,8 @@
 # CRUDL операции:
 - Создайте приложение которое будет использовать данные из бэкенда
 - Дизайн не важен, важна функциональность
+- Используйте только HTTP запросы
+- Используйте React
 
 ## Функции
 - Страница со списком всех записей
@@ -10,8 +12,8 @@
 - Удаление конкретной записи
 
 ## API endpoints
-- POST https://artem-test-8c652-default-rtdb.firebaseio.com/test.json {"user_id" : "jack", "text" : "Ahoy!"} - создать
-- GET https://artem-test-8c652-default-rtdb.firebaseio.com/test.json - получить все
-- GET https://artem-test-8c652-default-rtdb.firebaseio.com/test/<id>.json - получить конкретный
-- PUT https://artem-test-8c652-default-rtdb.firebaseio.com/test/<id>.json - обновить
-- DELETE https://artem-test-8c652-default-rtdb.firebaseio.com/test/<id>.json - удалить
+- POST <url>/test.json {"user_id" : "jack", "text" : "Ahoy!"} - создать
+- GET <url>/test.json - получить все
+- GET <url>/test/<id>.json - получить конкретный
+- PUT <url>/test/<id>.json - обновить
+- DELETE <url>/test/<id>.json - удалить
