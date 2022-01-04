@@ -6,7 +6,7 @@
 # Requiremnts:
 - Listing page that will display all emements. "Remove" button next to the each element. Upon click, element should be deleted
 - Page to create a new element
-- Page to diplsay value for one particuler element
+- Page to display value for one particular element
 - Page to update "value" property of the element
 
 # Format of the element object:
